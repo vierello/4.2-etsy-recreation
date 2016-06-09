@@ -1,0 +1,382 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+$link: #2697B9;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container-fluid {
+  background-color: #F2F3ED;
+}
+
+
+header {
+  padding-top: 20px;
+  color: $link;
+  height: 80px;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+  background-color:  white;
+
+}
+
+.etsy {
+  font-size: 44px;
+  font-family: serif;
+  color: #F34D00;
+  vertical-align: middle;
+  position: relative;
+  top: -16px;
+  left: 62px;
+  text-decoration: none;
+}
+
+.etsy:hover {
+  color: #F34D00;
+  text-decoration: none;
+}
+
+.search {
+  display: inline;
+  input {
+    position: relative;
+    border: 1px solid $link;
+  }
+  a {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    background-color: $link;
+    color: white;
+    padding:7px 20px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-decoration: none;
+  }
+}
+
+.actions {
+  display: inline-block;
+  float: right;
+  button{
+    background-color: white;
+    border: 1px solid $link;
+    color: $link;
+    border-radius: 4px;
+  }
+
+  .sell,
+  .reg,
+  .sign {
+    position: relative;
+    top: -8px;
+  }
+
+  .sell,
+  .reg,
+  .sign,
+  .cart {
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+.cart {
+  border-left: 1px solid gray;
+  padding-left: 6px;
+  color: #535353;
+  i{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  }
+}
+
+.nav-bar {
+  line-height: 40px;
+  border-bottom: 1px solid lightgray;
+  padding-left: 80px;
+  margin-bottom: 30px;
+  background-color:  white;
+  a{
+  text-decoration: none;
+  color: #535353;
+  padding-right: 20px;
+  }
+}
+
+.show-for {
+  line-height: 26px;
+  a {
+  display: block;
+  padding-left: 16px;
+  }
+  span {
+    display: block;
+  }
+  .head1 {
+    padding-left: 66px;
+
+  }
+  .head2 {
+    padding-left: 8px;
+
+  }
+}
+
+.categories {
+  border: 1px solid lightgray;
+  background-color: white;
+  margin-left: 66px;
+  margin-bottom: 20px;
+}
+
+.refine {
+  text-decoration: none;
+  .head3 {
+    padding-left: 66px;
+  }
+}
+
+.refine-search {
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-left: 66px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+}
+
+.item1,
+.price,
+.filter,
+.ordering,
+.shop {
+  border-bottom: 1px solid lightgray;
+  padding: 12px 0;
+}
+
+.item-type a {
+  text-decoration: none;
+}
+
+.price1 {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.price-filter {
+  height: 36px;
+  width: 58px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
+
+.price {
+  a {
+  height: 36px;
+  width: 36px;
+  border: 1px solid lightgray;
+  display: inline-block;
+  border-radius: 3px;
+  position: relative;
+  }
+  i {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: black;
+  }
+}
+
+.filter-by-color{
+  display: block;
+  margin-bottom: 6px;
+}
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5,
+.color6,
+.color7,
+.color8 {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid lightgray;
+}
+
+.color1 {
+  background-color: #F10020;
+}
+
+.color2 {
+  background-color: #FF6A00;
+}
+
+.color3 {
+  background-color: #F0C500;
+}
+
+.color4 {
+  background-color: #0FBD00;
+}
+
+.color5{
+  background-color: #06C0F2;
+}
+
+.color6 {
+  background-color: #9400F4;
+}
+
+.color7{
+  background-color: black;
+}
+
+.color8 {
+  background-color: white;
+}
+
+.ship-to {
+  display: block;
+  margin-top: 10px;
+}
+
+.destination {
+  display: block;
+  height: 36px;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  line-height: 36px;
+  vertical-align: middle;
+  padding-left: 6px;
+}
+
+.container {
+  position: relative;
+}
+
+.result {
+  float: left;
+  position: absolute;
+}
+
+.categ {
+  color: $link;
+}
+
+.results {
+  color: #3C3C3C;
+}
+
+.product {
+  margin-top: 26px;
+  height: 305px;
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  background-color: white;
+  position: relative;
+}
+
+.prouct-image,
+.product-shop,
+.product-price{
+  display: inline-block;
+}
+
+
+a.product-title{
+  text-decoration: none;
+  color: black;
+}
+
+.product-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 340px;
+  display: block;
+  padding-left: 10px;
+}
+
+.product-shop {
+  float: left;
+  padding-left: 10px;
+  color: gray;
+  position: absolute;
+  bottom: 0;
+}
+
+a.product-shop{
+  text-decoration: none;
+}
+
+.product-price {
+  float: right;
+  padding-right: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: green;
+}
+
+.image {
+  height: 260px;
+  overflow: hidden;
+}
+
+.more-shops {
+  margin-top: 20px;
+  padding-left: 32px;
+}
+
+.more-shops a {
+  color: $link;
+  text-decoration: none;
+}
+
+.pages {
+  padding-left: 32px;
+  margin-top: 10px;
+
+}
+
+.pages div {
+  display: inline-block;
+  height: 40px;
+  width:40px;
+  background-color: white;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
+.pages div:hover {
+  background-color: lightgray;
+}
+.wrapper1 {
+  border-bottom: 1px solid lightgray;
+}
