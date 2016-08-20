@@ -190,17 +190,18 @@ header {
 
 .price {
   a {
-  height: 36px;
-  width: 36px;
-  border: 1px solid lightgray;
-  display: inline-block;
-  border-radius: 3px;
-  position: relative;
+    top: 13px;
+    height: 36px;
+    width: 36px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    border-radius: 3px;
+    position: relative;
   }
   i {
     position: absolute;
-    top: 18px;
-    left: 18px;
+    top: 11px;
+    left: 14px;
     color: black;
   }
 }
@@ -379,4 +380,38 @@ a.product-shop{
 }
 .wrapper1 {
   border-bottom: 1px solid lightgray;
+}
+
+.e-mail-sign-up {
+  height: 121px;
+  border: 8px solid #EFEFEB;
+  border-radius: 10px;
+  .sign-up-line {
+    height: 63px;
+    padding: 20px;
+    text-align: center;
+  }
+  p {
+    font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  }
+  input {
+    width: 250px;
+    height: 34px;
+  }
+  button {
+    background-color: #F56400;
+    width: 140px;
+    height: 34px;
+    color: white;
+  }
+}
+
+.footer-links {
+  .column-1,
+  .column-2,
+  .column-3,
+  .cloumn-4,
+  .column-5 {
+    margin-right: 20px;
+  }
 }
