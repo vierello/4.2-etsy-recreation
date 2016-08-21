@@ -5906,6 +5906,7 @@ header {
   border: 1px solid lightgray; }
 
 .price a {
+  top: 13px;
   height: 36px;
   width: 36px;
   border: 1px solid lightgray;
@@ -5914,8 +5915,8 @@ header {
   position: relative; }
 .price i {
   position: absolute;
-  top: 18px;
-  left: 18px;
+  top: 11px;
+  left: 14px;
   color: black; }
 
 .filter-by-color {
@@ -6062,5 +6063,49 @@ a.product-shop {
 
 .wrapper1 {
   border-bottom: 1px solid lightgray; }
+
+.e-mail-sign-up {
+  height: 121px;
+  border: 8px solid #EFEFEB;
+  border-radius: 10px;
+  margin-bottom: 30px; }
+  .e-mail-sign-up .sign-up-line {
+    height: 63px;
+    padding: 20px;
+    text-align: center; }
+  .e-mail-sign-up p {
+    font-family: "Graphik Web","Arial","Helvetica",sans-serif; }
+  .e-mail-sign-up input {
+    width: 250px;
+    height: 34px; }
+  .e-mail-sign-up button {
+    background-color: #F56400;
+    width: 140px;
+    height: 34px;
+    color: white; }
+
+.footer-links .column-1,
+.footer-links .column-2,
+.footer-links .column-3,
+.footer-links .column-4,
+.footer-links .column-5 {
+  margin-right: 30px;
+  padding: 0;
+  line-height: 30px; }
+.footer-links .heading-1,
+.footer-links .heading-2 {
+  line-height: 18px;
+  margin-bottom: 5px; }
+.footer-links button {
+  background: #0192B5;
+  color: white; }
+.footer-links a {
+  color: #0192B5; }
+.footer-links i {
+  margin-right: 5px; }
+.footer-links li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  list-style: none; }
 
 /*# sourceMappingURL=app.css.map */
