@@ -25,6 +25,9 @@ img {
   background-color: #F2F3ED;
 }
 
+hr {
+  border-top: 1px solid #E2E2E2;
+}
 
 header {
   padding-top: 20px;
@@ -380,6 +383,7 @@ a.product-shop{
 }
 .wrapper1 {
   border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
 }
 
 .e-mail-sign-up {
@@ -437,4 +441,67 @@ a.product-shop{
     font-size: 14px;
     list-style: none;
   }
+}
+
+.location-button {
+  width: 268px;
+  height: 35px;
+  line-height: 35px;
+  background: transparent;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  font-size: 12px;
+  padding: 0;
+  margin-left: 100px;
+}
+
+.pipe {
+  font-size: 20px;
+  color: lightgray;
+  padding: 0 2px;
+}
+
+.us-flag-icon {
+  height: 26px;
+  width: 30px;
+  margin-bottom: 8px;
+}
+
+.help-button {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  height: 35px;
+  line-height: 34px;
+  background: transparent;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  margin-top: -2px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  width: 150px;
+}
+
+.footer-words {
+  margin-bottom: 25px;
+}
+
+.copyright {
+  color: #999999;
+  font-size: 12px;
+  margin-right: 13px;
+  i {
+    margin-right: 4px;
+  }
+}
+
+.footer {
+  color: #666666;
+  font-size: 12px;
+  margin-right: 13px;
 }
