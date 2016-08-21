@@ -386,6 +386,7 @@ a.product-shop{
   height: 121px;
   border: 8px solid #EFEFEB;
   border-radius: 10px;
+  margin-bottom: 30px;
   .sign-up-line {
     height: 63px;
     padding: 20px;
@@ -410,8 +411,30 @@ a.product-shop{
   .column-1,
   .column-2,
   .column-3,
-  .cloumn-4,
+  .column-4,
   .column-5 {
-    margin-right: 20px;
+    margin-right: 30px;
+    padding: 0;
+    line-height: 30px;
+  }
+  .heading-1,
+  .heading-2 {
+    line-height: 18px;
+    margin-bottom: 5px;
+  }
+  button {
+    background: #0192B5;
+    color: white;
+  }
+  a {
+    color: #0192B5;
+  }
+  i {
+    margin-right: 5px;
+  }
+  li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    list-style: none;
   }
 }
